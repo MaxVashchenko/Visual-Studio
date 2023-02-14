@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  visualstudio:
+    image: visualstudio
+    build:
+      context: .
+      dockerfile: ./Dockerfile
